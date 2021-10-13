@@ -14,8 +14,8 @@ read as 8 nodes in the input encoder, 8 nodes in the input layer and 2 nodes in 
 The first two values, namely 8,8 need to be the same as these make up the input encoder connections
 which are one to one. The experiment was also conducted with multiple layers which to recreate should 
 be changed to [8,8,64,2] for CartPole which indicates 8 input decoder nodes, 8 input layer neurons, 64 
-hidden layer neurons and 2 output neurons. The multilayer Lunar Lander experiment outlined in the paper
-used [14,14,128,4].
+hidden layer neurons and 2 output neurons. The multilayer Lunar Lander experiment outlined in Section 5.3
+(the main evolutionary experiment) used [14,14,128,4].
 
 The exposure period and decoding method can be then passed as arguments when running the program. For 
 example:
