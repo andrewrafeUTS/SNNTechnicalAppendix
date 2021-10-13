@@ -1,3 +1,5 @@
+This code was used for experimentation in Chapter 5 (Evolutionary Experiments with Spiking Neural Networks)
+
 Run on Python 3.8.0. Other versions will work but have not been extensively tested.
 
 PACKAGES NEEDED (can be installed with pip):
